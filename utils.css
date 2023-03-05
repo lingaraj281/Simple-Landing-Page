@@ -1,0 +1,128 @@
+.main{
+    height: 100vh;
+    /* background-color: red; */
+
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80vw;
+}
+.topleft{
+    width: 50%;
+}
+.topright{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+}
+.s1{
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.lapimg{
+    width: 500px;
+}
+
+.bt2{
+    padding:5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(39, 1, 255);
+    border: blue 5px;
+    border-radius: 5px;
+}
+.bt2:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(51, 0, 255);
+    border:2px solid blue;
+}
+
+.sec2{
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.same{
+    width: 380px;
+    height: 300px;
+    background-color: rgb(243, 242, 242);
+    border-radius: 5px;
+}
+.f1 , .f2, .f3{
+    background-color: rgb(197, 197, 197);
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+}
+.f3{
+    background-color: blue;
+    color: white;
+}
+.pr{
+    list-style: none;
+    margin-top: 10px;
+}
+.pr li{
+    padding-top: 8px;
+}
+.bt-1{
+    background-color: white;
+    color: blue;
+    border:1px solid blue;
+}
+.bt-2{
+    color: white;
+    background-color: blue;
+    border: none;
+}
+.bt-3{
+    color: white;
+    background-color: blue;
+    border: none;
+}
+.btn{
+    width: 80%;
+    margin-top: 11px;
+    padding: 8px;
+    /* background-color: white; */
+    border-radius: 2px;
+}
+.sec2 h1{
+    margin-top: 5px;
+    font-size: 35px;
+}
+footer{
+    background-color: grey;
+    height: 30px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:1452px){
+    .same{
+        width:280px;
+        height: 200px;;
+    }
+    
+}
+@media (max-width:1184px){
+    .lapimg{
+        width: 400px;
+    }
+    .topleft h1{
+        font-size: 0.8rem;
+    }
+    .topleft p{
+        font-size:0.8rem;
+    }
+}

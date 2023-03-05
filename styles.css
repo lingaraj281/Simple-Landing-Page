@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.navbar li{
+    margin: 0 10px;
+     
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    
+}
+#logo{
+    font-weight: bold;
+    color: blue;
+    display: inline-block;
+    margin-top: 10px;
+    /* background-color: green; */
+    
+}
+.justify-betn{
+    justify-content: space-between;
+}
+header{
+    margin-top: 10px;
+}
